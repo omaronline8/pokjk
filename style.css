@@ -1,0 +1,141 @@
+header{
+    position: sticky;
+    z-index: 999;
+    top: -10px;
+}
+
+.Header{
+
+    overflow:auto;
+    text-align:center;
+    background-color:rgb(63, 152, 65);
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-bottom: 100px;
+
+}
+.Header ul {
+    text-align: center;
+   padding-top:5px ; 
+ padding-bottom:5px ;
+ text-decoration: none;
+}
+.Header li{
+    display: inline-block;
+    text-align: center;
+}
+.Header li a {
+    display:inline-block;
+    height: auto;
+    width: 159px;
+    color: #333333;
+    background-color:#f5f5f5;
+    padding:10px;
+    margin: 4px;
+    text-align: center;
+    font-size:18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.Header li a:hover {
+    background-color: rgb(161, 254, 156);
+}
+
+
+.Main{
+    overflow:auto;
+    text-align:center;
+    padding-bottom: 20;
+}
+
+
+.pics {
+    overflow: auto;
+    margin-top: 10;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: rgb(104, 169, 14)
+}
+.pics img{
+    border-style:solid;
+    border-width:2px;
+    border-color: #426C35 ;
+    border-radius:6px;
+    object-fit: cover;
+    margin: 2px;
+    object-position:top;
+    }
+
+
+
+
+.Footer {
+    overflow:auto;
+    padding-top: 20px;
+    padding-bottom:20px;
+    text-align: center;
+    background-color:rgb(80, 238, 140);
+}
+
+.Footer ul {
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-decoration:none ;
+}
+.Footer li {
+    display:inline-block;
+    text-align:center;
+}
+
+.Footer li a {
+    height:auto;
+    width:auto;
+    color:#333333;
+    background-color:#f5f5f5;
+    padding:10px;
+    margin :4px;
+    display:inline-block;
+    font-size:16px;
+    text-align :center;
+    font-weight :bold;
+    text-decoration:none;
+}
+.Footer li a:hover{
+    background-color: rgb(36, 241, 70);
+}
+
+h1 {
+    color:#189305;
+    font-weight:bold;
+    font-size:36px;
+}
+
+.Main h2 {
+    overflow:auto;
+    margin-top:40px;
+    margin-left :auto;
+    margin-right:auto;
+    width:200px;
+    padding:10px;
+    background-color:#7afdb1 ;
+    color:#41be14;
+    font-weight :bold;
+    text-align:center;
+    border-radius:20px
+}
+
+.pics h2 {
+    color:#426C35;
+    font-size:28px
+
+}
+
+.Footer h2{
+    color: #777777;
+}
+    .Footer p {
+    color:black;
+    }
